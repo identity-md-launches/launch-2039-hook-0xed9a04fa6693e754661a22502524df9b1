@@ -1,0 +1,10 @@
+{
+  "kind": "evm_contracts",
+  "contracts": [
+    {
+      "contract": "PlaygroundLauncher",
+      "constructorArgs": ["$owner"]
+    }
+  ],
+  "notes": "Deploys the accepted PlaygroundLauncher with an explicit immutable owner. The Ethereum launcher uses factory 0x801411c6acec4fa80c75c5d3c0eae13c84f8a173, hook 0xed9a04fa6693e754661a22502524df9b1857e544 and ERC20T implementation 0x2df7dcf4d19a7924e00ae96629cc1d1261670eee. Its one-use launch creates PLAYGROUND (PG), with 1,000,000,000 tokens at 18 decimals, paired with IMD at 0xD34a99Bc0f67aE1bbd63C660e6d0b0dd03E263B7. It sends 50,000,000 PG (5%) to 0xcB58AdA9F7338Bfbe06Ec647f27DE8D0664dddaC and assigns 950,000,000 PG (95%) to locked single-sided liquidity, with rounding residue locked in the token contract. Initial total trading tax is 2.5%, including the 0.15% protocol portion; the beneficiary receives the remaining 2.35% portion, subject to fee conversion and rounding. Launch tax and decay interval are zero. Application deployment alone does not create PG: the owner supplies a fresh IMD/USD observation through the accepted owner-settable price setting and subsequently invokes launch. Pricing targets $20,000 fully diluted valuation, subject to quote and pool tick rounding. Token administration passes to $owner after distribution; the accepted ERC20T implementation permits later owner changes to tax and recipients."
+}
