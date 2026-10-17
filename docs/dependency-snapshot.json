@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Factory",
+    "address": "0x801411c6acec4fa80c75c5d3c0eae13c84f8a173",
+    "block": 26208919,
+    "runtimeBytes": 7523,
+    "runtimeKeccak256": "0x474f926e1425178a191768de94d3a734dec4b8e8ba8095699e511e8275ab1867"
+  },
+  {
+    "name": "Implementation",
+    "address": "0x2df7dcf4d19a7924e00ae96629cc1d1261670eee",
+    "block": 26208919,
+    "runtimeBytes": 14874,
+    "runtimeKeccak256": "0xd73decc05e33a0c746d08a72b5a8e1eb0ff4599dd557b45a7cc4462053862d38"
+  },
+  {
+    "name": "Hook",
+    "address": "0xed9a04fa6693e754661a22502524df9b1857e544",
+    "block": 26208919,
+    "runtimeBytes": 11594,
+    "runtimeKeccak256": "0x6b744df4b886fa50c6c3af8e14837d660494b63f21118e661d17e5cc06017ba1"
+  },
+  {
+    "name": "PoolManager",
+    "address": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+    "block": 26208919,
+    "runtimeBytes": 24009,
+    "runtimeKeccak256": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293"
+  },
+  {
+    "name": "PositionManager",
+    "address": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+    "block": 26208919,
+    "runtimeBytes": 23877,
+    "runtimeKeccak256": "0x77e36c08b19959a30dde46dec9abe6208e371ff2f56884a56fe1e1a53615528b"
+  },
+  {
+    "name": "Permit2",
+    "address": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+    "block": 26208919,
+    "runtimeBytes": 9152,
+    "runtimeKeccak256": "0xc67d1657868aa5146eaf24fb879fb1fdec3d2d493b3683a61c9c2f4fb2851131"
+  },
+  {
+    "name": "Imd",
+    "address": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "block": 26208919,
+    "runtimeBytes": 22990,
+    "runtimeKeccak256": "0x79a1ae149d27d4aae006d4dd75cb834222c9623799bbf34359428aaf66fec3bf"
+  }
+]
